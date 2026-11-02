@@ -87,4 +87,6 @@ This is a local learning assignment. Production deployment additionally needs HT
 - Postman collection and automated tests: included.
 - Public GitHub repository: https://github.com/som62630/backend-crud-assignment
 - Atlas cluster: active; application connection and the complete collection verified against `backend_assignment`.
-- Postman collection: 11 requests and 12 assertions passed against Atlas using Newman. Desktop execution remains pending.
+- Postman collection: 11 requests and 12 assertions passed against Atlas using Newman. Postman desktop execution also passed: 12 assertions passed, 0 failed, 0 errors.
+
+![Postman desktop test results](docs/postman-desktop-results.png)
