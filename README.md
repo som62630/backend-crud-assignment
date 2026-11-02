@@ -86,4 +86,5 @@ This is a local learning assignment. Production deployment additionally needs HT
 - Register, login, logout and post CRUD endpoints: included.
 - Postman collection and automated tests: included.
 - Public GitHub repository: https://github.com/som62630/backend-crud-assignment
-- Atlas account/cluster and Postman desktop execution: require completing the account setup and desktop steps above; their availability is separate from the code.
+- Atlas cluster: active; application connection and the complete collection verified against `backend_assignment`.
+- Postman collection: 11 requests and 12 assertions passed against Atlas using Newman. Desktop execution remains pending.

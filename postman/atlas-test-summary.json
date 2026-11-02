@@ -1,0 +1,72 @@
+{
+  "database": "MongoDB Atlas / backend_assignment",
+  "runner": "Newman (Postman collection CLI)",
+  "requests": {
+    "total": 11,
+    "pending": 0,
+    "failed": 0
+  },
+  "assertions": {
+    "total": 12,
+    "pending": 0,
+    "failed": 0
+  },
+  "failures": 0,
+  "endpoints": [
+    {
+      "name": "01 Health",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "name": "02 Register",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "name": "03 Login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "name": "04 Create post",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "name": "05 Read all posts",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "name": "06 Read one post",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "name": "07 Update post",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "name": "08 Delete post",
+      "method": "DELETE",
+      "status": 204
+    },
+    {
+      "name": "09 Confirm deleted",
+      "method": "GET",
+      "status": 404
+    },
+    {
+      "name": "10 Logout",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "name": "11 Confirm logged out",
+      "method": "POST",
+      "status": 401
+    }
+  ]
+}
